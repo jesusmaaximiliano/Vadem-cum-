@@ -226,6 +226,46 @@
             </div>
         </div>
     </div>
+    <div id="contactModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-stone-900/60 backdrop-blur-sm fade-in p-4">
+        <div class="bg-white rounded-2xl shadow-xl w-full max-w-2xl max-h-[85vh] flex flex-col overflow-hidden">
+            <div class="p-5 md:p-6 border-b border-stone-100 flex justify-between items-center bg-stone-50">
+                <h3 class="text-lg md:text-xl font-bold text-teal-800 flex items-center gap-2">
+                    <span class="text-2xl">✉️</span> Contacto
+                </h3>
+                <button id="closeContactBtn" class="text-stone-400 hover:text-red-500 transition-colors focus:outline-none p-1 bg-white rounded-md border border-stone-200 shadow-sm hover:shadow">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="p-5 md:p-6 overflow-y-auto text-sm text-stone-600 space-y-4 hide-scroll">
+                <p class="mb-4 text-stone-800 font-medium">¿Tienes alguna duda, sugerencia o comentario sobre este vademécum? Puedes ponerte en contacto a través de los siguientes medios:</p>
+                
+                <div class="space-y-4">
+                    <div class="p-4 bg-stone-50 rounded-lg border border-stone-100 flex flex-col gap-1">
+                        <span class="font-bold text-stone-800 text-lg">Maximiliano Cuellar Angel Jesus</span>
+                        <span class="text-stone-600 font-medium">Estudiante de Medicina</span>
+                        <span class="text-stone-500 text-xs">Escuela Superior de Medicina (ESM) - IPN</span>
+                    </div>
+
+                    <div class="p-4 bg-teal-50 rounded-lg border border-teal-100 flex items-center gap-3">
+                        <span class="text-2xl">📧</span>
+                        <div>
+                            <span class="font-bold text-teal-900 block">Correo Electrónico</span>
+                            <a href="mailto:tu-correo@ejemplo.com" class="text-teal-700 hover:text-teal-500 transition-colors font-medium">tu-correo@ejemplo.com</a>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-teal-50 rounded-lg border border-teal-100 flex items-center gap-3">
+                        <span class="text-2xl">📱</span>
+                        <div>
+                            <span class="font-bold text-teal-900 block">LinkedIn</span>
+                            <a href="#" class="text-teal-700 hover:text-teal-500 transition-colors font-medium">tu-perfil-de-linkedin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script>
         const drugsData = [
             // AINEs
