@@ -222,7 +222,24 @@
             </div>
         </div>
     </div>
-
+<div id="refsModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-stone-900/60 backdrop-blur-sm fade-in p-4">
+        <div class="bg-white rounded-2xl shadow-xl w-full max-w-2xl max-h-[85vh] flex flex-col overflow-hidden">
+            <div class="p-5 md:p-6 border-b border-stone-100 flex justify-between items-center bg-stone-50">
+                <h3 class="text-lg md:text-xl font-bold text-teal-800 flex items-center gap-2">
+                    <span class="text-2xl">📚</span> Contacto
+                </h3>
+                <button id="closeRefsBtn" class="text-stone-400 hover:text-red-500 transition-colors focus:outline-none p-1 bg-white rounded-md border border-stone-200 shadow-sm hover:shadow">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="p-5 md:p-6 overflow-y-auto text-sm text-stone-600 space-y-4 hide-scroll">
+                <p class="mb-4 text-stone-800 font-medium">La información clínica de los fármacos en este vademécum fue extraída de las siguientes fuentes oficiales y libros de texto médicos:</p>
+                
+                <ul class="space-y-4">
+                    <li class="p-3 bg-stone-50 rounded-lg border border-stone-100">
+                        <span class="font-bold text-stone-800">1. Brunton LL, Hilal-Dandan R, Knollmann BC.</span>
+                        <br> <em>Goodman & Gilman's The Pharmacological Basis of Therapeutics.</em> 13ª/14ª ed. New York: McGraw-Hill Education; 2019/2023.
+                    </li>
     <script>
         const drugsData = [
             // AINEs
